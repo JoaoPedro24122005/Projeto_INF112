@@ -1,1 +1,58 @@
-Olá mundo 
+Iniciado em 18/08/2025
+Por João Pedro
+
+>> Estrutura da ferramenta
+
+1) Back-end: vetores, contato com banco de dados, cálculos no geral
+2) Front-end: interface gráfica da ferramente (leitura e impressão dos dados)
+
+1.1) Criação das principais variaveis do programa
+Classe Alimento // Classe alimento (armazeno todas as info sobre um determinado alimento)
+Alimento alimentos[] // Vetor onde ficará armazenado o nome dos alimentos
+Calorias
+
+1.2) Comunicação com banco de dados
+
+1.3) Leitura das informações do usuario
+
+1.3.1) Ler os dados de login do usuario
+
+2.1) Fazer uma tela de inicio com nome do sistema/sistema
+
+2.2) Fazer uma aba de login para a pessoa colocar o nome, peso e altura
+
+>> BIBLIOTECAS
+
+- Interface Grafica: SFML (mesmo que a gente usou para fazer o PAC-MAN)
+- Grafico: Matplot++
+Link: https://www.youtube.com/watch?v=43Wp_qxyXDM
+- Leitura de csv: fstream, sstream     
+Link: https://medium.com/@ryan_forrester_/reading-csv-files-in-c-how-to-guide-35030eb378ad
+
+EXEMPLO DE CODIGO:
+
+struct Alimento {
+    char nome[50];
+    char proteina[50];
+
+};
+
+int main() {
+    // Usar alocação dinamica para ir aumentando o tamanho do vetores
+    // com os alimentos. Ideia: a medida que o usario clica em um novo
+    // alimento e cofirma, um novo espaço na memoria é alocado
+    
+    Alimento alimento_semana[]; // dom, seg, ter, qua, qui, sex, sab 
+    Alimento alimento_dia[];
+
+    while (aba_food == OPEN ) {
+        Alimento alimento_selecionado;
+
+
+    }
+
+    // O nosso sistema ele armazena no maximo os alimentos da semana, mas 
+    // se o usuario quiser utilizar para o sistema para uma outra semana,
+    // ele pode ser dar um reset no sistema e baixar os dados da semana
+    // em seu computador
+}
